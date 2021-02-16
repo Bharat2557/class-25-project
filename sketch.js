@@ -22,12 +22,12 @@ function setup(){
     bin.scale = 0.45;
 
     binPart1 = new Dustbin(902,505,10,120);
-    binPart2 = new Dustbin(962,565,130,10);
-    binPart3 = new Dustbin(1024,505,10,120);
+    binPart2 = new Dustbin(962,565,90,10);
+    binPart3 = new Dustbin(1000,505,10,120);
 }
 
 function draw(){
-    background("black");
+    background("white");
     Engine.update(engine);
 
     
